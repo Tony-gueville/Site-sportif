@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Nutrition</title>
+  <link rel="stylesheet" href="nutrition.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="index.html" class="back-link">
+       <a href="../index.html"><i class="fas fa-arrow-left back-icon"></i></a>
+      </a>
+      
+      <h1>Mon Site de Nutrition et Entraînement</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html#entrainement">Entraînement</a></li>
+          <li><a href="nutrition.html#nutrition">Nutrition</a></li>
+        </ul>
+      </nav>
+    </header>
+   
+    <div class="main-content">
+        <div class="container-button">
+            <select id="choix1">
+              <option value="option1">Semaine 1</option>
+              <option value="option2">Semaine 2</option>
+            
+            </select>
+            <button id="envoyer">Envoyer</button>
+          </div>
+    
+
+        <div id="nutrition" class="section">
+          <div class="menu">
+            <h3>Midi</h3>
+            <div class="menu-items">
+              <a href="https://jow.fr/recipes/rice-power-bowl-83mla5ibklb44x3g03ct?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 1" data-plat="Plat 1" data-dessert="Dessert 1">Lundi <p>Rice Power Bowl</p></a>
+              <a href="https://jow.fr/recipes/poulet-et-nouilles-sautees-aux-legumes-8o9fhohmi9aeb92d130s?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Mardi<p>Poulet & nouilles sautées aux légumes</p></a>
+              <a href="https://jow.fr/recipes/quiche-brocoli-saumon-et-chevre-84cb6xyak4qdflcq038l?coversCount=6"target="_blank" class="menu-item" data-recette="Entrée 1" data-plat="Plat 1" data-dessert="Dessert 1">Mercredi<p>Quiche brocoli saumon & chèvre</p></a>
+              <a href="https://jow.fr/recipes/burrito-boeuf-et-cheddar-8pud4pnx6gsw8yr515f5?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Jeudi<p>Burrito bœuf & cheddar</p></a>
+              <a href="https://jow.fr/recipes/boeuf-haricots-verts-et-puree-81ot4z2ubhtc00vb05a9?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 1" data-plat="Plat 1" data-dessert="Dessert 1">Vendredi<p>Bœuf haricots verts & purée</p></a>
+              <a href="https://jow.fr/recipes/papillote-poulet-citron-86xl4fs82mdt6eyo00l1?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Samedi<p>Papillote poulet citron</p></a>
+              <a href="https://jow.fr/recipes/steak-hache-a-l-echalote-et-puree-8fmwj1rcarpska5106at?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Dimanche<p>Steak haché à l'échalote & purée</p></a>
+            </div>
+          </div>
+          <div class="menu">
+            <h3>Soir</h3>
+            <div class="menu-items">
+              <a href="https://jow.fr/recipes/gnocchi-a-poeler-champignons-et-feta-84jdkat6b1f50ft103ux?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 1" data-plat="Plat 1" data-dessert="Dessert 1">Lundi<p>Gnocchi à poêler, champignons & feta</p></a>
+              <a href="https://jow.fr/recipes/puree-de-carottes-oeuf-et-brocoli-8fp987qlhpggke510z3n?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Mardi<p>Purée de carottes, œuf & brocoli</p></a>
+              <a href="https://jow.fr/recipes/salade-betterave-bleu-et-noix-8lup6kh38sv8jvp90542?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 1" data-plat="Plat 1" data-dessert="Dessert 1">Mercredi<p>Salade betterave, bleu & noix</p></a>
+              <a href="https://jow.fr/recipes/nuggets-veggie-et-puree-de-brocolis-8fjiibro3yb8f8yq0051?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Jeudi<p>Nuggets veggie & purée de brocolis</p></a>
+              <a href="https://jow.fr/recipes/carottes-roties-au-miel-81er5sgtbakw00x90dyg?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 1" data-plat="Plat 1" data-dessert="Dessert 1">Vendredi<p>Carottes rôties au miel</p></a>
+              <a href="https://jow.fr/recipes/poulet-gingembre-et-cajou-855pki5ngy2vbab8016i?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Samedi<p>Poulet gingembre & cajou</p></a>
+              <a href="https://jow.fr/recipes/steak-pommes-de-terre-et-tomates-mozza-au-pesto-8t7l2wxzbdmohqfn05u7?coversCount=2"target="_blank" class="menu-item" data-recette="Entrée 2" data-plat="Plat 2" data-dessert="Dessert 2">Dimanche<p>Steak, pommes de terre</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="menu-details" class="menu-details"></div>
+  
+    <script src="scripts.js"></script>
+  </body>
+</html>

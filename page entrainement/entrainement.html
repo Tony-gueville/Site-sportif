@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Exercices de Musculation</title>
+</head>
+<body>
+    
+    <div class="container-arrow">
+        <a href="../index.html" class="back-link">
+          <i class="fas fa-arrow-left back-icon"></i>
+        </a>
+        <h1>Exercices de Musculation</h1>
+      </div>
+      
+  <div class="container-choix">
+    <select id="choix1">
+      <option value="option1">Programme 1</option>
+      <option value="option2">Programme 2</option>
+      <option value="option2">Programme 3</option>
+    
+    </select>
+    <button id="envoyer">Envoyer</button>
+  </div>
+
+  <div class="timer-container">
+    <h2>Chronomètre</h2>
+    <div class="timer">
+      <span id="hours">00</span> :
+      <span id="minutes">00</span> :
+      <span id="seconds">00</span> :
+      <span id="milliseconds">000</span>
+    </div>
+    <div class="timer-buttons">
+        <button id="startButton" onclick="startTimer()">Start</button>
+        <button id="stopButton" onclick="stopTimer()">Stop</button>
+        <button id="resetButton" onclick="resetTimer()">Reset</button>
+        
+    </div>
+  </div>
+  <div class="button-muscu">
+    <button class="exercise-btn" onclick="showDescription(1)">Développé couché</button>
+    <div class="description" id="description1"> <img src="../images/gif/developpe-couche.gif" alt="GIF animé" id="gif-anime">Description de l'exercice 1</div>
+    <button class="exercise-btn" onclick="showDescription(2)">Rowing T-bar</button>
+    <div class="description" id="description2"><img src="../images/gif/rowing-barre-t-landmine.gif" alt="gif animé" id="gif-anime"> Description de l'exercice 2</div>
+    <button class="exercise-btn" onclick="showDescription(3)">Squat</button>
+    <div class="description" id="description3"><img src="../images/gif/homme-faisant-un-squat-avec-barre.gif" alt="gif animé" id="gif-anime"> Description de l'exercice 3</div>
+    <button class="exercise-btn" onclick="showDescription(4)">Biceps curl barre</button>
+    <div class="description" id="description4"><img src="../images/gif/curl-barre.gif" alt="gif animé" id="gif-anime">Description de l'exercice 4</div>
+    <button class="exercise-btn" onclick="showDescription(5)">Rowing bucheron</button>
+    <div class="description" id="description5"><img src="../images/gif/latissimus_uebungen-einarmiges_rudern.gif" alt="gif animé" id="gif-anime">Description de l'exercice 5</div>
+    <button class="exercise-btn" onclick="showDescription(6)">Abdominaux</button>
+    <div class="description" id="description6"><img src="../images/gif/crunch-au-sol-exercice-musculation.gif" alt="gif animé" id="gif-anime">Description de l'exercice 6</div>
+    <button class="exercise-btn" onclick="showDescription(7)">Gainage</button>
+    <div class="description" id="description7"><img src="../images/gif/Muscles-Planche.001-1-980x551.jpeg" alt="gif animé" id="gif-anime">Description de l'exercice 7</div>
+    <button class="exercise-btn" onclick="showDescription(8)">Exercise 8</button>
+    <div class="description" id="description8">Description de l'exercice 8</div>
+    <button class="exercise-btn" onclick="showDescription(9)">Exercise 9</button>
+    <div class="description" id="description9">Description de l'exercice 9</div>
+    <button class="exercise-btn" onclick="showDescription(10)">Exercise 10</button>
+    <div class="description" id="description10">Description de l'exercice 10</div>
+  </div>
+
+  
+
+  <script src="scripts.js"></script>
+</body>
+</html>
